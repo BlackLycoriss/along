@@ -1,0 +1,102 @@
+body {
+    background-image: url(/Along-web-site/src/wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    color: #e9e7e7;
+}
+
+a {
+    text-decoration: none;
+    color: #775757;
+}
+
+.recept {
+     text-align: center;
+}
+
+.btn:active {
+    background-color:  #870000;
+}
+
+.btn {
+    background-color: rgba(0,0,0,0);
+    border: 0cap;
+    height: 100%;
+    width: 100%;
+}
+.btn:hover {
+    background-color: #602828;
+}
+
+.about {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 27px;
+    background: black;
+    padding-left: 5%;
+    padding-right: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    opacity: 0.8;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    border-radius: 1em;
+    border: 5px double #320000;
+    ;
+}
+h1 {
+    text-align: center;
+}
+.top {
+    position: relative;
+}
+
+.top_img {
+    object-position: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+    object-fit: cover;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #870000;
+}
+
+a:active {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #775757;
+}
+
+nav a {
+    color: #a64444;
+    height: 100%;
+    width: max-content;
+    
+}
+
+nav {
+    margin-inline: 50px;
+    margin-top: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(108,11,11,1) 49%, rgba(0,0,0,1) 100%);
+    height: 30px;
+    padding: 0px;
+    width: 100%;
+    margin-right: 20%;
+    margin-left: 0%;
+}
+
+
